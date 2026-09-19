@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Node / frontend build output (frontend has its own tooling)
+frontend/**/node_modules/
+frontend/**/dist/
+
+# Local data that should not bake into the image
+app.db
+agents/orchestration/contract_review_checkpoints.db
+
+# VCS / OS cruft
+.git/
+.gitignore
+.DS_Store

@@ -595,7 +595,7 @@ ollama pull llama3
 |---|---|---|---|---|
 | 1 | High | `vite.config.js` | No dev proxy — browser makes cross-origin requests to `:8000`, triggering CORS errors | Proxy added for all API routes |
 | 2 | High | `SignupPage.jsx` | Password field rendered before email field — breaks autofill and confuses users | Field order corrected |
-| 3 | Medium | `main.py` | `ALLOWED_ORIGINS` only covers `localhost:5173` — any other origin (staging, production) will be CORS-blocked | ️ Add production URL to `ALLOWED_ORIGINS` before deploying |
+| 3 | Medium | `main.py` | `ALLOWED_ORIGINS` only covered `localhost:5173` — any other origin (staging, production) was CORS-blocked | ✅ Now configurable via the `ALLOWED_ORIGINS` env var (comma-separated), defaulting to the Vite dev origins |
 | 4 | Medium | `api/auth.py` | `JWT_SECRET` defaults to a known weak string — all instances share the same secret if `.env` is not set | ✅ Startup warning added when default is in use; `.env.example` provided. Still: set `JWT_SECRET` in `.env` before deploying |
 | 5 | Medium | `agents` | RAG context was not injected (`knowledge_retrieval_agent` commented out) | ✅ Retrieval now runs inside `document_understanding_agent` (populates `retrieved_context`); retriever degrades gracefully when the KB is unbuilt |
 | 6 | Low | `api/analyze.py` | `risk_score` in `/history` and `/reports` read the wrong key, always returning `0` | ✅ Fixed to `overall_risk_score` |

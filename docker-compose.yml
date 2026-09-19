@@ -1,0 +1,24 @@
+# Local containerized backend for the Contract Review API.
+#
+#   docker compose up --build
+#
+# ChromaDB is embedded (persists to ./kb/chroma) and SQLite is a local file
+# (./app.db), so both are bind-mounted to survive container restarts. Set your
+# secrets in .env (see .env.example) — it is loaded automatically.
+
+services:
+  api:
+    build: .
+    container_name: contract-review-api
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      # Override the default dev origins if your frontend runs elsewhere.
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-http://localhost:5173,http://127.0.0.1:5173}
+    volumes:
+      # Persist the SQLite DB and the built knowledge base across runs.
+      - ./app.db:/app/app.db
+      - ./kb:/app/kb
+    restart: unless-stopped

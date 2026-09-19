@@ -100,7 +100,20 @@ Contract-Review-dev/
 > **Not yet implemented:** server-side PDF report generation (ReportLab) is on the
 > roadmap. Today the frontend "Download report" button produces a client-side
 > `.txt` export (`frontend/frontend/src/lib/api.js:generateReportBlob`).
-> Docker/`docker-compose.yml` and a `LICENSE` file are also not present yet.
+
+### Run with Docker
+
+The backend ships with a `Dockerfile` and `docker-compose.yml`:
+
+```bash
+cp .env.example .env          # then fill in GROQ_API_KEY, JWT_SECRET, etc.
+./build_kb.sh                 # build the knowledge base into ./kb/chroma (first run)
+docker compose up --build     # API on http://localhost:8000
+```
+
+`app.db` (SQLite) and `kb/` (ChromaDB) are bind-mounted so data survives
+restarts. Set `ALLOWED_ORIGINS` in `.env` to your frontend origin(s) for
+production CORS.
 
 ---
 

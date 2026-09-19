@@ -70,11 +70,23 @@ async def monitor_contract_review_pipeline(
     print_output: bool = True,
 ) -> list[tuple[str, dict[str, Any]]]:
     """Run the contract review agents in order and print their outputs."""
-    from agents import contract_review_agent, clause_classification_agent, compliance_agent, risk_agent, recommendation_agent, legal_explanation_agent
+    from agents import (
+        contract_review_agent,
+        clause_classification_agent,
+        document_understanding_agent,
+        compliance_agent,
+        risk_agent,
+        recommendation_agent,
+        legal_explanation_agent,
+    )
 
+    # Mirrors the LangGraph order in agents/orchestration/orchestration.py so a
+    # manual run reproduces the real pipeline (document_understanding populates
+    # document_summary/key_terms/retrieved_context used downstream).
     stages = [
         ("contract_review_agent", contract_review_agent.run),
         ("clause_classification_agent", clause_classification_agent.run),
+        ("document_understanding_agent", document_understanding_agent.run),
         ("compliance_agent", compliance_agent.run),
         ("risk_agent", risk_agent.run),
         ("recommendation_agent", recommendation_agent.run),

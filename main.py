@@ -7,6 +7,7 @@ FastAPI entrypoint. Run with:
 from __future__ import annotations
 
 import logging
+import os
 
 from dotenv import load_dotenv
 from fastapi import FastAPI
@@ -30,11 +31,16 @@ app = FastAPI(
     description="API layer over the multi-agent contract review pipeline.",
 )
 
-# Vite dev server default port. Add your deployed frontend origin later.
+# Allowed CORS origins. Defaults to the Vite dev server; override in production
+# by setting ALLOWED_ORIGINS to a comma-separated list of frontend origins,
+# e.g. ALLOWED_ORIGINS="https://app.example.com,https://staging.example.com"
+_DEFAULT_ORIGINS = "http://localhost:5173,http://127.0.0.1:5173"
 ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-    "http://127.0.0.1:5173",
+    origin.strip()
+    for origin in os.getenv("ALLOWED_ORIGINS", _DEFAULT_ORIGINS).split(",")
+    if origin.strip()
 ]
+logger.info("CORS allowed origins: %s", ALLOWED_ORIGINS)
 
 app.add_middleware(
     CORSMiddleware,
