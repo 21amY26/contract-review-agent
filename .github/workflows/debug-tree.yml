@@ -1,0 +1,43 @@
+name: Debug Repository Structure
+
+on:
+  workflow_dispatch:
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Show working directory and repository structure
+        run: |
+          pwd
+          echo "===== Root files ====="
+          ls -la
+
+          echo ""
+          echo "===== Install tree ====="
+          sudo apt-get update
+          sudo apt-get install -y tree
+
+          echo ""
+          echo "===== Repository tree (depth 2) ====="
+          tree -L 2
+
+          echo ""
+          echo "===== Find directories (depth 2) ====="
+          find . -maxdepth 2 -type d
+
+          echo ""
+          echo "===== Python sys.path ====="
+          python - <<'PY'
+          import os
+          import sys
+
+          print("Current working directory:", os.getcwd())
+          print("\nPython executable:", sys.executable)
+          print("\nsys.path:")
+          for p in sys.path:
+              print(" ", p)
+          PY

@@ -1,0 +1,97 @@
+# Contract Sample Sources
+
+## CUAD
+
+- Source: https://github.com/TheAtticusProject/cuad/raw/main/data.zip
+
+- `kb/contracts/cuad/cuad_001_LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR_AGREEMENT.docx` from `CUADv1.json` title `LIMEENERGYCO_09_09_1999-EX-10-DISTRIBUTOR AGREEMENT`
+- `kb/contracts/cuad/cuad_002_WHITESMOKE_INC_11_08_2011-EX-10.26-PROMOTION_AND_DISTRIBUTION_AGREEMENT.docx` from `CUADv1.json` title `WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT`
+- `kb/contracts/cuad/cuad_003_LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply_Agreement.docx` from `CUADv1.json` title `LohaCompanyltd_20191209_F-1_EX-10.16_11917878_EX-10.16_Supply Agreement`
+- `kb/contracts/cuad/cuad_004_CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB_SITE_HOSTING_AGREEMENT.docx` from `CUADv1.json` title `CENTRACKINTERNATIONALINC_10_29_1999-EX-10.3-WEB SITE HOSTING AGREEMENT`
+- `kb/contracts/cuad/cuad_005_ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENT_AGREEMENT.docx` from `CUADv1.json` title `ADAMSGOLFINC_03_21_2005-EX-10.17-ENDORSEMENT AGREEMENT`
+- `kb/contracts/cuad/cuad_006_KIROMICBIOPHARMA_INC_05_11_2020-EX-10.23-CONSULTING_AGREEMENT.docx` from `CUADv1.json` title `KIROMICBIOPHARMA,INC_05_11_2020-EX-10.23-CONSULTING AGREEMENT`
+- `kb/contracts/cuad/cuad_007_VEONEER_INC_02_21_2020-EX-10.11-JOINT_VENTURE_AGREEMENT.docx` from `CUADv1.json` title `VEONEER,INC_02_21_2020-EX-10.11-JOINT VENTURE AGREEMENT`
+- `kb/contracts/cuad/cuad_008_DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_Promotion_Agreement.docx` from `CUADv1.json` title `DovaPharmaceuticalsInc_20181108_10-Q_EX-10.2_11414857_EX-10.2_Promotion Agreement`
+- `kb/contracts/cuad/cuad_009_PACIRA_PHARMACEUTICALS_INC._-_A_R_STRATEGIC_LICENSING_DISTRIBUTION_AND_MARKETING_AGREEMENT.docx` from `CUADv1.json` title `PACIRA PHARMACEUTICALS, INC. - A_R STRATEGIC LICENSING, DISTRIBUTION AND MARKETING AGREEMENT `
+- `kb/contracts/cuad/cuad_010_MetLife_Inc._-_Remarketing_Agreement.docx` from `CUADv1.json` title `MetLife, Inc. - Remarketing Agreement`
+- `kb/contracts/cuad/cuad_011_FTENETWORKS_INC_02_18_2016-EX-99.4-STRATEGIC_ALLIANCE_AGREEMENT.docx` from `CUADv1.json` title `FTENETWORKS,INC_02_18_2016-EX-99.4-STRATEGIC ALLIANCE AGREEMENT`
+- `kb/contracts/cuad/cuad_012_DOMINIADVISORTRUST_02_18_2005-EX-99._H_2_-SPONSORSHIP_AGREEMENT.docx` from `CUADv1.json` title `DOMINIADVISORTRUST_02_18_2005-EX-99.(H)(2)-SPONSORSHIP AGREEMENT`
+- `kb/contracts/cuad/cuad_013_PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_Franchise_Agreement3.docx` from `CUADv1.json` title `PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_Franchise Agreement3`
+- `kb/contracts/cuad/cuad_014_CerenceInc_20191002_8-K_EX-10.4_11827494_EX-10.4_Intellectual_Property_Agreement.docx` from `CUADv1.json` title `CerenceInc_20191002_8-K_EX-10.4_11827494_EX-10.4_Intellectual Property Agreement`
+- `kb/contracts/cuad/cuad_015_ThriventVariableInsuranceAccountB_20190701_N-6_EX-99.D_IV__11720968_EX-99.D_IV__Endorsemen.docx` from `CUADv1.json` title `ThriventVariableInsuranceAccountB_20190701_N-6_EX-99.D(IV)_11720968_EX-99.D(IV)_Endorsement Agreement`
+- `kb/contracts/cuad/cuad_016_ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply_Agreement.docx` from `CUADv1.json` title `ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement`
+- `kb/contracts/cuad/cuad_017_IntegrityFunds_20200121_485BPOS_EX-99.E_UNDR_CONTR_11948727_EX-99.E_UNDR_CONTR_Service_Agr.docx` from `CUADv1.json` title `IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement`
+- `kb/contracts/cuad/cuad_018_PREMIERBIOMEDICALINC_05_14_2020-EX-10.2-INTELLECTUAL_PROPERTY_AGREEMENT.docx` from `CUADv1.json` title `PREMIERBIOMEDICALINC_05_14_2020-EX-10.2-INTELLECTUAL PROPERTY AGREEMENT`
+- `kb/contracts/cuad/cuad_019_SIBANNAC_INC_12_04_2017-EX-2.1-Strategic_Alliance_Agreement.docx` from `CUADv1.json` title `SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement`
+- `kb/contracts/cuad/cuad_020_INTRICONCORP_03_10_2009-EX-10.22-Strategic_Alliance_Agreement.docx` from `CUADv1.json` title `INTRICONCORP_03_10_2009-EX-10.22-Strategic Alliance Agreement`
+- `kb/contracts/cuad/cuad_021_BONTONSTORESINC_04_20_2018-EX-99.3-AGENCY_AGREEMENT.docx` from `CUADv1.json` title `BONTONSTORESINC_04_20_2018-EX-99.3-AGENCY AGREEMENT`
+- `kb/contracts/cuad/cuad_022_ON2TECHNOLOGIES_INC_11_17_2006-EX-10.3-SUPPORT_AND_MAINTENANCE_AGREEMENT.docx` from `CUADv1.json` title `ON2TECHNOLOGIES,INC_11_17_2006-EX-10.3-SUPPORT AND MAINTENANCE AGREEMENT`
+- `kb/contracts/cuad/cuad_023_Freecook_20180605_S-1_EX-10.3_11233807_EX-10.3_Hosting_Agreement.docx` from `CUADv1.json` title `Freecook_20180605_S-1_EX-10.3_11233807_EX-10.3_Hosting Agreement`
+- `kb/contracts/cuad/cuad_024_OPERALTD_04_30_2020-EX-4.14-SERVICE_AGREEMENT.docx` from `CUADv1.json` title `OPERALTD_04_30_2020-EX-4.14-SERVICE AGREEMENT`
+- `kb/contracts/cuad/cuad_025_BORROWMONEYCOM_INC_06_11_2020-EX-10.1-JOINT_VENTURE_AGREEMENT.docx` from `CUADv1.json` title `BORROWMONEYCOM,INC_06_11_2020-EX-10.1-JOINT VENTURE AGREEMENT`
+- `kb/contracts/cuad/cuad_026_ZEBRATECHNOLOGIESCORP_04_16_2014-EX-10.1-INTELLECTUAL_PROPERTY_AGREEMENT.docx` from `CUADv1.json` title `ZEBRATECHNOLOGIESCORP_04_16_2014-EX-10.1-INTELLECTUAL PROPERTY AGREEMENT`
+- `kb/contracts/cuad/cuad_027_ChinaRealEstateInformationCorp_20090929_F-1_EX-10.32_4771615_EX-10.32_Content_License_Agre.docx` from `CUADv1.json` title `ChinaRealEstateInformationCorp_20090929_F-1_EX-10.32_4771615_EX-10.32_Content License Agreement`
+- `kb/contracts/cuad/cuad_028_HERTZGLOBALHOLDINGS_INC_07_07_2016-EX-10.4-INTELLECTUAL_PROPERTY_AGREEMENT.docx` from `CUADv1.json` title `HERTZGLOBALHOLDINGS,INC_07_07_2016-EX-10.4-INTELLECTUAL PROPERTY AGREEMENT`
+- `kb/contracts/cuad/cuad_029_GLOBALTECHNOLOGIESLTD_06_08_2020-EX-10.16-CONSULTING_AGREEMENT.docx` from `CUADv1.json` title `GLOBALTECHNOLOGIESLTD_06_08_2020-EX-10.16-CONSULTING AGREEMENT`
+- `kb/contracts/cuad/cuad_030_PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_Franchise_Agreement1.docx` from `CUADv1.json` title `PfHospitalityGroupInc_20150923_10-12G_EX-10.1_9266710_EX-10.1_Franchise Agreement1`
+- `kb/contracts/cuad/cuad_031_CORIOINC_07_20_2000-EX-10.5-LICENSE_AND_HOSTING_AGREEMENT.docx` from `CUADv1.json` title `CORIOINC_07_20_2000-EX-10.5-LICENSE AND HOSTING AGREEMENT`
+- `kb/contracts/cuad/cuad_032_TUNIUCORP_03_06_2014-EX-10-COOPERATION_AGREEMENT.docx` from `CUADv1.json` title `TUNIUCORP_03_06_2014-EX-10-COOPERATION AGREEMENT`
+- `kb/contracts/cuad/cuad_033_CYBERIANOUTPOSTINC_07_09_1998-EX-10.13-PROMOTION_AGREEMENT.docx` from `CUADv1.json` title `CYBERIANOUTPOSTINC_07_09_1998-EX-10.13-PROMOTION AGREEMENT`
+- `kb/contracts/cuad/cuad_034_SENMIAOTECHNOLOGYLTD_02_19_2019-EX-10.5-Collaboration_Agreement.docx` from `CUADv1.json` title `SENMIAOTECHNOLOGYLTD_02_19_2019-EX-10.5-Collaboration Agreement`
+- `kb/contracts/cuad/cuad_035_HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_Reseller_Agreeme.docx` from `CUADv1.json` title `HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_Reseller Agreement`
+- `kb/contracts/cuad/cuad_036_LOYALTYPOINTINC_11_16_2004-EX-10.2-RESELLER_AGREEMENT.docx` from `CUADv1.json` title `LOYALTYPOINTINC_11_16_2004-EX-10.2-RESELLER AGREEMENT`
+- `kb/contracts/cuad/cuad_037_BNCMORTGAGEINC_05_17_1999-EX-10.4-LICENSING_AND_WEB_SITE_HOSTING_AGREEMENT.docx` from `CUADv1.json` title `BNCMORTGAGEINC_05_17_1999-EX-10.4-LICENSING AND WEB SITE HOSTING AGREEMENT`
+- `kb/contracts/cuad/cuad_038_ENERGOUSCORP_03_16_2017-EX-10.24-STRATEGIC_ALLIANCE_AGREEMENT.docx` from `CUADv1.json` title `ENERGOUSCORP_03_16_2017-EX-10.24-STRATEGIC ALLIANCE AGREEMENT`
+- `kb/contracts/cuad/cuad_039_CytodynInc_20200109_10-Q_EX-10.5_11941634_EX-10.5_License_Agreement.docx` from `CUADv1.json` title `CytodynInc_20200109_10-Q_EX-10.5_11941634_EX-10.5_License Agreement`
+- `kb/contracts/cuad/cuad_040_MSCIINC_02_28_2008-EX-10.10.docx` from `CUADv1.json` title `MSCIINC_02_28_2008-EX-10.10-`
+- `kb/contracts/cuad/cuad_041_NICELTD_06_26_2003-EX-4.5-OUTSOURCING_AGREEMENT.docx` from `CUADv1.json` title `NICELTD_06_26_2003-EX-4.5-OUTSOURCING AGREEMENT`
+- `kb/contracts/cuad/cuad_042_ImpresseCorp_20000322_S-1A_EX-10.11_5199234_EX-10.11_Co-Branding_Agreement.docx` from `CUADv1.json` title `ImpresseCorp_20000322_S-1A_EX-10.11_5199234_EX-10.11_Co-Branding Agreement`
+- `kb/contracts/cuad/cuad_043_AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content_License_Agre.docx` from `CUADv1.json` title `AlliedEsportsEntertainmentInc_20190815_8-K_EX-10.19_11788293_EX-10.19_Content License Agreement`
+- `kb/contracts/cuad/cuad_044_CHERRYHILLMORTGAGEINVESTMENTCORP_09_26_2013-EX-10.1-Strategic_Alliance_Agreement.docx` from `CUADv1.json` title `CHERRYHILLMORTGAGEINVESTMENTCORP_09_26_2013-EX-10.1-Strategic Alliance Agreement`
+- `kb/contracts/cuad/cuad_045_CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate_Agreement.docx` from `CUADv1.json` title `CreditcardscomInc_20070810_S-1_EX-10.33_362297_EX-10.33_Affiliate Agreement`
+- `kb/contracts/cuad/cuad_046_GALACTICOMMTECHNOLOGIESINC_11_07_1997-EX-10.46-WEB_HOSTING_AGREEMENT.docx` from `CUADv1.json` title `GALACTICOMMTECHNOLOGIESINC_11_07_1997-EX-10.46-WEB HOSTING AGREEMENT`
+- `kb/contracts/cuad/cuad_047_Zounds_Hearing_Inc._-_MANUFACTURING_DESIGN_MARKETING_AGREEMENT.docx` from `CUADv1.json` title `Zounds Hearing, Inc. - MANUFACTURING DESIGN MARKETING AGREEMENT`
+- `kb/contracts/cuad/cuad_048_CUROGROUPHOLDINGSCORP_05_04_2020-EX-10.3-SERVICING_AGREEMENT.docx` from `CUADv1.json` title `CUROGROUPHOLDINGSCORP_05_04_2020-EX-10.3-SERVICING AGREEMENT`
+- `kb/contracts/cuad/cuad_049_SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate_Agreement.docx` from `CUADv1.json` title `SouthernStarEnergyInc_20051202_SB-2A_EX-9_801890_EX-9_Affiliate Agreement`
+- `kb/contracts/cuad/cuad_050_ConformisInc_20191101_10-Q_EX-10.6_11861402_EX-10.6_Development_Agreement.docx` from `CUADv1.json` title `ConformisInc_20191101_10-Q_EX-10.6_11861402_EX-10.6_Development Agreement`
+
+## SEC EDGAR
+
+- `kb/contracts/sec/sec_001_320193_000114036126006577_ef20060722_ex10-1.docx` from https://www.sec.gov/Archives/edgar/data/320193/000114036126006577/ef20060722_ex10-1.htm
+- `kb/contracts/sec/sec_002_320193_000114036126006577_ef20065677_ex10-2.docx` from https://www.sec.gov/Archives/edgar/data/320193/000114036126006577/ef20065677_ex10-2.htm
+- `kb/contracts/sec/sec_003_320193_000114036124024352_ef20028273_ex99-1.docx` from https://www.sec.gov/Archives/edgar/data/320193/000114036124024352/ef20028273_ex99-1.htm
+- `kb/contracts/sec/sec_003_320193_000162828016020309_exhibit101810k2016.docx` from https://www.sec.gov/Archives/edgar/data/320193/000162828016020309/exhibit101810k2016.htm
+- `kb/contracts/sec/sec_004_320193_000114036124024352_ef20028273_ex99-2.docx` from https://www.sec.gov/Archives/edgar/data/320193/000114036124024352/ef20028273_ex99-2.htm
+- `kb/contracts/sec/sec_004_320193_000162828016020309_exhibit101910k2016.docx` from https://www.sec.gov/Archives/edgar/data/320193/000162828016020309/exhibit101910k2016.htm
+- `kb/contracts/sec/sec_005_320193_000162828016020309_exhibit101810k2016.docx` from https://www.sec.gov/Archives/edgar/data/320193/000162828016020309/exhibit101810k2016.htm
+- `kb/contracts/sec/sec_005_789019_000119312526191507_msft-ex10_1.docx` from https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-ex10_1.htm
+- `kb/contracts/sec/sec_006_320193_000162828016020309_exhibit101910k2016.docx` from https://www.sec.gov/Archives/edgar/data/320193/000162828016020309/exhibit101910k2016.htm
+- `kb/contracts/sec/sec_006_789019_000119312526191507_msft-ex10_2.docx` from https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-ex10_2.htm
+- `kb/contracts/sec/sec_007_789019_000119312526191507_msft-ex10_1.docx` from https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-ex10_1.htm
+- `kb/contracts/sec/sec_007_789019_000119312526191507_msft-ex10_3.docx` from https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-ex10_3.htm
+- `kb/contracts/sec/sec_008_789019_000119312526191507_msft-ex10_2.docx` from https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-ex10_2.htm
+- `kb/contracts/sec/sec_008_789019_000119312526191507_msft-ex10_4.docx` from https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-ex10_4.htm
+- `kb/contracts/sec/sec_009_789019_000095017025100235_msft-ex10_7.docx` from https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-ex10_7.htm
+- `kb/contracts/sec/sec_009_789019_000119312526191507_msft-ex10_3.docx` from https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-ex10_3.htm
+- `kb/contracts/sec/sec_010_789019_000095017025100235_msft-ex10_8.docx` from https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-ex10_8.htm
+- `kb/contracts/sec/sec_010_789019_000119312526191507_msft-ex10_4.docx` from https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-ex10_4.htm
+- `kb/contracts/sec/sec_011_789019_000095017024087843_msft-ex10_5.docx` from https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-ex10_5.htm
+- `kb/contracts/sec/sec_011_789019_000119312526191457_msft-ex99_1.docx` from https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/msft-ex99_1.htm
+- `kb/contracts/sec/sec_012_789019_000119312526027198_msft-ex99_1.docx` from https://www.sec.gov/Archives/edgar/data/789019/000119312526027198/msft-ex99_1.htm
+- `kb/contracts/sec/sec_012_789019_000156459022035087_msft-ex1028_258.docx` from https://www.sec.gov/Archives/edgar/data/789019/000156459022035087/msft-ex1028_258.htm
+- `kb/contracts/sec/sec_013_789019_000119312525256310_msft-ex99_1.docx` from https://www.sec.gov/Archives/edgar/data/789019/000119312525256310/msft-ex99_1.htm
+- `kb/contracts/sec/sec_013_789019_000156459022035087_msft-ex1029_259.docx` from https://www.sec.gov/Archives/edgar/data/789019/000156459022035087/msft-ex1029_259.htm
+- `kb/contracts/sec/sec_014_789019_000119312525256310_msft-ex99_2.docx` from https://www.sec.gov/Archives/edgar/data/789019/000119312525256310/msft-ex99_2.htm
+- `kb/contracts/sec/sec_014_789019_000156459021051992_msft-ex1027_334.docx` from https://www.sec.gov/Archives/edgar/data/789019/000156459021051992/msft-ex1027_334.htm
+- `kb/contracts/sec/sec_015_789019_000095017025100235_msft-ex10_7.docx` from https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-ex10_7.htm
+- `kb/contracts/sec/sec_015_789019_000156459020034944_msft-ex1025_365.docx` from https://www.sec.gov/Archives/edgar/data/789019/000156459020034944/msft-ex1025_365.htm
+- `kb/contracts/sec/sec_016_789019_000095017025100235_msft-ex10_8.docx` from https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-ex10_8.htm
+- `kb/contracts/sec/sec_016_789019_000156459020034944_msft-ex1026_364.docx` from https://www.sec.gov/Archives/edgar/data/789019/000156459020034944/msft-ex1026_364.htm
+- `kb/contracts/sec/sec_017_1018724_000110465926072140_tm2613616d4_ex10-1.docx` from https://www.sec.gov/Archives/edgar/data/1018724/000110465926072140/tm2613616d4_ex10-1.htm
+- `kb/contracts/sec/sec_017_789019_000095017025100226_msft-ex99_1.docx` from https://www.sec.gov/Archives/edgar/data/789019/000095017025100226/msft-ex99_1.htm
+- `kb/contracts/sec/sec_018_1018724_000110465926021050_tm267374d1_ex10-1.docx` from https://www.sec.gov/Archives/edgar/data/1018724/000110465926021050/tm267374d1_ex10-1.htm
+- `kb/contracts/sec/sec_018_789019_000095017025061032_msft-ex99_1.docx` from https://www.sec.gov/Archives/edgar/data/789019/000095017025061032/msft-ex99_1.htm
+- `kb/contracts/sec/sec_019_1018724_000110465923113444_tm2329405d1_ex10-1.docx` from https://www.sec.gov/Archives/edgar/data/1018724/000110465923113444/tm2329405d1_ex10-1.htm
+- `kb/contracts/sec/sec_019_789019_000095017025010484_msft-ex99_1.docx` from https://www.sec.gov/Archives/edgar/data/789019/000095017025010484/msft-ex99_1.htm
+- `kb/contracts/sec/sec_020_1018724_000110465923113444_tm2329405d1_ex10-2.docx` from https://www.sec.gov/Archives/edgar/data/1018724/000110465923113444/tm2329405d1_ex10-2.htm
+- `kb/contracts/sec/sec_020_789019_000095017024132722_msft-ex99_1.docx` from https://www.sec.gov/Archives/edgar/data/789019/000095017024132722/msft-ex99_1.htm

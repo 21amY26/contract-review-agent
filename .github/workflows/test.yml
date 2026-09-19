@@ -1,0 +1,62 @@
+# .github/workflows/test.yml
+name: Tests
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install system deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr
+
+      - name: Install python deps
+        run: |
+          pip install \
+            pymupdf pdfplumber python-docx pytesseract pillow \
+            pytest pytest-asyncio \
+            pydantic httpx \
+            sentence-transformers chromadb
+
+      # ── Parser tests ────────────────────────────────────────────────
+      - name: Run parser unit tests
+        run: pytest ingestion/parsers/tests/ -v -m "not integration"
+
+      - name: Run DOCX integration test (real file)
+        run: pytest ingestion/parsers/tests/test_real_docx.py -v -m integration
+
+      - name: Run PDF integration test (real file)
+        run: pytest ingestion/parsers/tests/test_real_pdf.py -v -m integration
+
+      # ── Splitter tests ───────────────────────────────────────────────
+      - name: Run splitter unit tests
+        run: pytest ingestion/chunking/tests/ -v -m "not integration"
+
+      - name: Run splitter integration tests (real files)
+        run: pytest ingestion/chunking/tests/ -v -m integration
+
+      # ── Agent tests (no Ollama, no ChromaDB required — all mocked) ───
+      - name: Run agent unit tests
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          python -c "import sys; print(sys.path)"
+          pytest test/unit/ -v --asyncio-mode=auto
+
+      # ── Compliance / Risk agent tests (explicit, for clear CI visibility) ─
+      - name: Run compliance agent tests
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: pytest test/unit/test_compliance_agent.py -v --asyncio-mode=auto
+
+      - name: Run risk agent tests
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: pytest test/unit/test_risk_agent.py -v --asyncio-mode=auto

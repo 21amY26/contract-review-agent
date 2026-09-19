@@ -1,0 +1,33 @@
+[
+  {
+    "risk_type": "Unlimited Liability",
+    "severity": "Critical",
+    "description": "The contract exposes the company to uncapped damages or excludes liability caps for broad categories of claims without negotiated limits.",
+    "citation": "RISK-001"
+  },
+  {
+    "risk_type": "Broad Indemnity",
+    "severity": "High",
+    "description": "The indemnity obligation is one-sided, covers indirect losses, or applies to claims outside the company's control.",
+    "citation": "RISK-002"
+  },
+  {
+    "risk_type": "Missing Data Processing Terms",
+    "severity": "High",
+    "description": "The agreement involves personal data but does not define processing purpose, security obligations, subprocessor controls, deletion or return, audit support, or breach notification.",
+    "citation": "RISK-003"
+  },
+  {
+    "risk_type": "Weak Incident Notification",
+    "severity": "Medium",
+    "description": "The contract lacks a specific security incident notification deadline or allows delayed notice after confirmed impact only.",
+    "citation": "RISK-004"
+  },
+  {
+    "risk_type": "Automatic Renewal",
+    "severity": "Medium",
+    "description": "The agreement renews automatically without a practical reminder window, termination right, or notice period aligned to business requirements.",
+    "citation": "RISK-005"
+  }
+]
+

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+chroma
+chroma.sqlite3
+
+.env
+.env.*
+!.env.example
+.env.example
+
+
+venv/
+.venv/
+agents/orchestration/contract_review_checkpoints.db
